@@ -32,33 +32,33 @@ function App() {
   const [siteData, setSiteData] = useState()
   const [loading, setLoading] = useState(true)
   // Get siteData and populate
-  // const getSiteData = async () => {
-  //   let data
-  //   const query = await getDocs(collection(db, 'site-data'))
-  //   query.forEach((doc) => {
-  //     const info = doc.data()
-  //     data = {
-  //       heroWrapper: info.heroWrapper,
-  //       nav: info.nav,
-  //       aboutPage: info.aboutPage,
-  //       teamsPage: info.teamsPage,
-  //       galleryPage: info.galleryPage,
-  //       newsPage: info.newsPage,
-  //     }
-  //   })
-  //   return data
-  // }
-  // useEffect(() => {
-  //   getSiteData()
-  //     .then((data) => {
-  //       window.localStorage.setItem('siteData', JSON.stringify(data))
-  //     })
-  //     .then(() => {
-  //       setSiteData(JSON.parse(window.localStorage.getItem('siteData')))
-  //       setLoading(false)
-  //       console.log('APP', JSON.parse(window.localStorage.getItem('siteData')))
-  //     })
-  // }, [])
+  const getSiteData = async () => {
+    console.log('1')
+    let data
+    console.log('2')
+    const query = await getDocs(collection(db, 'site-data'))
+    query.forEach((doc) => {
+    console.log('3')
+      const info = doc.data()
+    console.log('4')
+      data = {
+        test: info.test,
+      }
+    })
+    console.log('5')
+    return data
+  }
+  useEffect(() => {
+    getSiteData()
+      .then((data) => {
+        window.localStorage.setItem('siteData', JSON.stringify(data))
+      })
+      .then(() => {
+        setSiteData(JSON.parse(window.localStorage.getItem('siteData')))
+        setLoading(false)
+        console.log('APP', JSON.parse(window.localStorage.getItem('siteData')))
+      })
+  }, [])
 
   return (
     <Fragment>

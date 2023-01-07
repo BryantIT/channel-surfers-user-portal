@@ -36,7 +36,7 @@ const AlbumsPreview = () => {
                       Cras lacinia ipsum nisi, at sagittis leo sodales eget amet
                       vitea
                     </p>
-                    <Link className='btn' to='album'>
+                    <Link className='btn' to='/album'>
                       See Album
                     </Link>
                   </div>
