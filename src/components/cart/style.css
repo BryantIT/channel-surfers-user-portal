@@ -1,0 +1,146 @@
+.cart-page-wrapper .cart {
+  width: 100%;
+  position: relative;
+}
+.cart-page-wrapper .cart thead {
+  border-bottom: 1px solid #1fd3ec;
+  border-top: 1px solid #1fd3ec;
+  background: rgba(0, 0, 0, 0.5);
+}
+.cart-page-wrapper .cart thead tr th {
+  text-align: left;
+  padding: 25px 0;
+  font-size: 18px;
+}
+.cart-page-wrapper .cart tbody tr {
+  border-bottom: 1px solid #1fd3ec;
+}
+.cart-page-wrapper .cart tbody tr td:first-child {
+  padding: 45px 0;
+}
+.cart-page-wrapper .cart tbody tr:last-child {
+  background: rgba(0, 0, 0, 0.5);
+}
+.cart-page-wrapper .cart tbody tr:last-child td {
+  padding: 25px 50px;
+}
+.cart-page-wrapper .cart tbody tr td span,
+.cart-page-wrapper .cart tbody tr td a {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #cccccc;
+}
+.cart-page-wrapper .cart tbody tr td a {
+  color: #e6e6e6;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.cart-page-wrapper .cart tbody tr td a:hover,
+.cart-page-wrapper .cart tbody tr td a:focus {
+  color: #1fd3ec;
+}
+@media screen and (max-width: 991px) {
+  .cart-page-wrapper .cart tbody tr td {
+    padding: 45px 0;
+  }
+}
+.cart-page-wrapper .cart .product-thumbnail {
+  width: 20%;
+  text-align: center;
+}
+.cart-page-wrapper .cart .product-thumbnail img {
+  padding: 4px;
+  border: 1px solid #1fd3ec;
+  -webkit-box-shadow: inset 0px 0px 0px 4px #000000;
+  -moz-box-shadow: inset 0px 0px 0px 4px #000000;
+  box-shadow: inset 0px 0px 0px 4px #000000;
+}
+@media screen and (max-width: 991px) {
+  .cart-page-wrapper .cart .product-thumbnail {
+    display: none;
+  }
+}
+.cart-page-wrapper .cart .product-name {
+  width: 30%;
+}
+.cart-page-wrapper .cart .product-price {
+  width: 15%;
+}
+.cart-page-wrapper .cart .product-quantity {
+  width: 20%;
+}
+.cart-page-wrapper .cart .product-quantity .qta-control .field {
+  margin-bottom: 0;
+}
+.cart-page-wrapper .cart .product-quantity .qta-control .field input {
+  width: 65px;
+  margin: 0 15px;
+  height: 30px;
+}
+.cart-page-wrapper .cart .product-quantity .qta-control input,
+.cart-page-wrapper .cart .product-quantity .qta-control .dec,
+.cart-page-wrapper .cart .product-quantity .qta-control .inc {
+  float: left;
+  line-height: 30px;
+}
+.cart-page-wrapper .cart .product-subtotal {
+  width: 10%;
+}
+.cart-page-wrapper .cart .product-remove {
+  width: 5%;
+}
+.cart-page-wrapper .cart .actions {
+  position: relative;
+  padding: 25px 195px 25px 50px;
+}
+.cart-page-wrapper .cart .actions .coupon {
+  width: 100%;
+}
+.cart-page-wrapper .cart .actions .coupon .field {
+  margin: 0;
+}
+.cart-page-wrapper .cart .actions .coupon input {
+  float: left;
+  width: 45%;
+  height: 40px;
+}
+.cart-page-wrapper .cart .actions .coupon button {
+  margin-left: 15px;
+}
+.cart-page-wrapper .cart .actions .update {
+  display: block;
+  position: absolute;
+  right: 45px;
+  top: 25px;
+  width: 150px;
+}
+.cart-page-wrapper .cart .actions .update button {
+  float: right;
+}
+@media all and (max-width: 767px) {
+  .cart-page-wrapper .cart .actions {
+    padding: 25px 50px;
+  }
+  .cart-page-wrapper .cart .actions .coupon input {
+    float: none;
+    width: auto;
+  }
+  .cart-page-wrapper .cart .actions .coupon button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .cart-page-wrapper .cart .actions .update {
+    position: relative;
+    float: left;
+    right: auto;
+    top: auto;
+    margin-top: 10px;
+  }
+  .cart-page-wrapper .cart .actions .update button {
+    float: none;
+  }
+}

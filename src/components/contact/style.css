@@ -1,0 +1,50 @@
+.contact-home-wrapper {
+  background: #0b0d13 url(../../assets/imgs/backgrounds/bg-8.jpg) no-repeat
+    fixed center center;
+  background-size: cover;
+}
+/*----- 21.1 - Contact Page -----*/
+.contact-page-wrapper {
+  padding-bottom: 80px;
+}
+.contact-page-wrapper .contact-info,
+.contact-page-wrapper .info-block {
+  position: relative;
+  border: 1px solid #1fd3ec;
+  padding: 25px;
+  min-height: 205px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.contact-page-wrapper .contact-info h4,
+.contact-page-wrapper .info-block h4 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #1fd3ec;
+}
+.contact-page-wrapper .contact-info h5,
+.contact-page-wrapper .info-block h5 {
+  margin-bottom: 7px;
+  line-height: 18px;
+  color: #e6e6e6;
+}
+.contact-page-wrapper .contact-info h5 span,
+.contact-page-wrapper .info-block h5 span {
+  color: #f1754f;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+.contact-page-wrapper .contact-info p,
+.contact-page-wrapper .info-block p {
+  color: #e6e6e6;
+}
+@media screen and (max-width: 991px) {
+  .contact-page-wrapper .contact-info,
+  .contact-page-wrapper .info-block {
+    margin-bottom: 30px;
+  }
+}
+
+.form-row {
+  padding-top: 30px;
+}

@@ -1,0 +1,87 @@
+.newsletter-wrapper {
+  display: block;
+  width: 100%;
+  border-top: 1px dashed #1fd3ec;
+  padding: 16px 0;
+}
+.newsletter-wrapper h2 {
+  line-height: 42px;
+}
+.newsletter-wrapper h2 i {
+  padding-right: 10px;
+  color: #1fd3ec;
+}
+@media all and (max-width: 767px) {
+  .newsletter-wrapper h2 {
+    margin-bottom: 20px;
+  }
+}
+.newsletter-wrapper .mc-field-group input {
+  display: block;
+  width: 66%;
+  color: #1a1a1a;
+  background: #1fd3ec;
+  border: 1px solid #1fd3ec;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #000000;
+  -moz-box-shadow: inset 0px 0px 0px 3px #000000;
+  box-shadow: inset 0px 0px 0px 3px #000000;
+  float: left;
+  height: 42px;
+  color: #000000;
+  padding: 0 15px;
+}
+.newsletter-wrapper .mc-field-group input::-webkit-input-placeholder {
+  color: #000000;
+}
+.newsletter-wrapper .mc-field-group input :-moz-placeholder {
+  color: #000000;
+}
+.newsletter-wrapper .mc-field-group input ::-moz-placeholder {
+  color: #000000;
+}
+.newsletter-wrapper .mc-field-group input :-ms-input-placeholder {
+  color: #000000;
+}
+.newsletter-wrapper .mc-field-group .button {
+  display: block;
+  height: 42px;
+  width: 33%;
+  margin-left: 1%;
+  border: 1px solid #1fd3ec;
+  -webkit-box-shadow: inset 0px 0px 0px 3px #000000;
+  -moz-box-shadow: inset 0px 0px 0px 3px #000000;
+  box-shadow: inset 0px 0px 0px 3px #000000;
+  background: #1fd3ec;
+  float: right;
+  color: #000000;
+  font-weight: 600;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.newsletter-wrapper .mc-field-group .button:hover {
+  background: #f1754f;
+  border-color: #f1754f;
+}
+@media all and (max-width: 400px) {
+  .newsletter-wrapper .mc-field-group input {
+    width: 59%;
+  }
+  .newsletter-wrapper .mc-field-group .button {
+    width: 40%;
+  }
+}
+.newsletter-wrapper div.mce_inline_error {
+  font-weight: 400;
+  display: block;
+  position: absolute;
+  top: 45px;
+  left: 15px;
+  right: 15px;
+  color: #000000;
+  margin-top: 5px;
+  background: #f1754f;
+  font-weight: 500;
+}

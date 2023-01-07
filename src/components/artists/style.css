@@ -1,0 +1,198 @@
+.artists-wrapper .artist {
+  margin-top: 30px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #1fd3ec;
+  padding: 4px;
+}
+@media all and (max-width: 767px) {
+  .artists-wrapper .artist {
+    max-width: 420px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.artists-wrapper .artist .second-img-container {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  right: 4px;
+  overflow: hidden;
+}
+.artists-wrapper .artist .second-img-container img {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  opacity: 0;
+}
+.artists-wrapper .artist .overlay {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  right: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.artists-wrapper .artist .second-overlay {
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  right: 4px;
+  background: rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.artists-wrapper .artist .second-overlay .info-block {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 0 30px 30px;
+}
+.artists-wrapper .artist .second-overlay .info-block .social-buttons {
+  margin: 0;
+  padding: 0;
+}
+.artists-wrapper .artist .second-overlay .info-block .social-buttons li {
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  height: 0;
+}
+.artists-wrapper .artist .second-overlay .info-block .social-buttons li a {
+  display: inline-block;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.artists-wrapper .artist .second-overlay .info-block .social-buttons li a i {
+  display: block;
+  float: left;
+  width: 30px;
+  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #1fd3ec;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.artists-wrapper .artist .second-overlay .info-block .social-buttons li a span {
+  display: block;
+  float: left;
+  height: 30px;
+  padding: 0 15px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 600;
+  background: #1fd3ec;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.artists-wrapper
+  .artist
+  .second-overlay
+  .info-block
+  .social-buttons
+  li
+  a:hover
+  i {
+  border-color: #f1754f;
+}
+.artists-wrapper
+  .artist
+  .second-overlay
+  .info-block
+  .social-buttons
+  li
+  a:hover
+  span {
+  background: #f1754f;
+}
+.artists-wrapper .artist:hover .second-img-container img {
+  opacity: 0.4;
+  -webkit-transform: scale(1.04);
+  -moz-transform: scale(1.04);
+  transform: scale(1.04);
+}
+.artists-wrapper .artist:hover .overlay {
+  background: rgba(31, 211, 236, 0.2);
+}
+.artists-wrapper .artist:hover .info-block .social-buttons li {
+  padding-top: 5px;
+  height: 38px;
+}
+.artists-wrapper .artist:hover .info-block .social-buttons li:first-child {
+  padding-top: 20px;
+  height: 53px;
+}
+.artists-wrapper .artist:hover .info-block .social-buttons li a {
+  height: 30px;
+}
+.artist-single {
+  padding: 20px;
+  border: 1px solid #1fd3ec;
+}
+.artist-single img {
+  max-width: 360px;
+}
+.artist-single h2 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 767px) {
+  .artist-single h2 {
+    margin-top: 20px;
+  }
+}
+.artist-single .short-info {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.artist-single .sep {
+  width: 82px;
+  height: 1px;
+  border-bottom: 1px dashed #1fd3ec;
+  margin: 35px 0;
+}
+.artist-single p {
+  margin-bottom: 30px;
+}
+.artist-single .social-icons {
+  padding-top: 30px;
+}
+.artist-single .social-icons li {
+  margin-top: 9px;
+}
+
+.artist-single .social-icons .icon {
+  margin-top: 9px;
+}

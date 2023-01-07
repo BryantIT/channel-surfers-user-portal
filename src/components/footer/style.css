@@ -1,0 +1,9 @@
+.about-widget p {
+  font-size: 14px;
+}
+.about-widget .social-icons {
+  padding-top: 15px;
+}
+.about-widget .social-icons .icon {
+  margin-top: 9px;
+}
