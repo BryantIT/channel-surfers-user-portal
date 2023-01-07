@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect, useState } from 'react'
 // Components
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
@@ -22,8 +22,44 @@ import GalleryPage from './pages/GalleryPage'
 import { Routes, Route } from 'react-router-dom'
 // Styles
 import './App.css'
+// FireBase
+import { storage, db } from '../src/firebase'
+import { collection, getDocs } from 'firebase/firestore'
+import SiteDataContext from './SiteDataContext'
 
 function App() {
+  // States
+  const [siteData, setSiteData] = useState()
+  const [loading, setLoading] = useState(true)
+  // Get siteData and populate
+  // const getSiteData = async () => {
+  //   let data
+  //   const query = await getDocs(collection(db, 'site-data'))
+  //   query.forEach((doc) => {
+  //     const info = doc.data()
+  //     data = {
+  //       heroWrapper: info.heroWrapper,
+  //       nav: info.nav,
+  //       aboutPage: info.aboutPage,
+  //       teamsPage: info.teamsPage,
+  //       galleryPage: info.galleryPage,
+  //       newsPage: info.newsPage,
+  //     }
+  //   })
+  //   return data
+  // }
+  // useEffect(() => {
+  //   getSiteData()
+  //     .then((data) => {
+  //       window.localStorage.setItem('siteData', JSON.stringify(data))
+  //     })
+  //     .then(() => {
+  //       setSiteData(JSON.parse(window.localStorage.getItem('siteData')))
+  //       setLoading(false)
+  //       console.log('APP', JSON.parse(window.localStorage.getItem('siteData')))
+  //     })
+  // }, [])
+
   return (
     <Fragment>
       <Header />
