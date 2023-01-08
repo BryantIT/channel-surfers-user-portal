@@ -12,6 +12,7 @@ const Slider = () => {
                 <div className='slide slide1'></div>
                 <div className='slide slide2'></div>
                 <div className='slide slide3'></div>
+                <div className='slide slide4'></div>
               </div>
             </div>
             <div className='slideshow slideshow--contrast slideshow--contrast--before'>
@@ -19,6 +20,7 @@ const Slider = () => {
                 <div className='slide slide1'></div>
                 <div className='slide slide2'></div>
                 <div className='slide slide3'></div>
+                <div className='slide slide4'></div>
               </div>
             </div>
             <div className='slideshow slideshow--contrast slideshow--contrast--after'>
@@ -26,6 +28,7 @@ const Slider = () => {
                 <div className='slide slide1'></div>
                 <div className='slide slide2'></div>
                 <div className='slide slide3'></div>
+                <div className='slide slide4'></div>
               </div>
             </div>
           </div>
