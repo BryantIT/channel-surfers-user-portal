@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react'
 // Components
 // Pages
+import HomePage from './pages/HomePage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -45,50 +46,11 @@ function App() {
 
   return (
     <Fragment>
-      <Header />
+      {/* <Header /> */}
       <div className='site-content'>
-        {/* <Routes>
-          <Route path='/' element={<Home />} />
-        </Routes>
         <Routes>
-          <Route path='/album' element={<AlbumPage />} />
+          <Route path='/' element={<HomePage />} />
         </Routes>
-        <Routes>
-          <Route path='/albums' element={<AlbumsPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/artist' element={<ArtistPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/blogs' element={<BlogsPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/blog' element={<BlogPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/cart' element={<CartPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/contact' element={<ContactPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/event' element={<EventPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/events' element={<EventsPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/members' element={<MembersPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/product' element={<ProductPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/products' element={<ProductsPage />} />
-        </Routes>
-        <Routes>
-          <Route path='/gallery' element={<GalleryPage />} />
-        </Routes> */}
       </div>
     </Fragment>
   )

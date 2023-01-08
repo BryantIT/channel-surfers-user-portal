@@ -30,6 +30,47 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.11.3.min.js'></script>
+		<script type='text/javascript' src='js/jquery-migrate.min.js'></script>
+		<script type='text/javascript' src='js/jquery.themepunch.tools.min.js'></script>
+		<script type='text/javascript' src='js/jquery.themepunch.revolution.min.js'></script>
+		<script type='text/javascript' src='js/modernizr-2.7.1.min.js'></script>
+		<script type='text/javascript' src='js/imagesloaded.pkgd.min.js'></script>
+		<script type='text/javascript' src='js/jquery.carouFredSel-6.2.1.js'></script>
+		<script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+		<script type='text/javascript' src='js/bootstrap.min.js'></script>
+		<script type='text/javascript' src='js/hoverIntent-r7.min.js'></script>
+		<script type='text/javascript' src='js/superfish-1.7.4.min.js'></script>
+		<script type='text/javascript' src='js/main.js'></script>
+		<script type='text/javascript' src='js/mediaelement-and-player.js'></script>
+		<script type='text/javascript' src='js/player.js'></script>
+		<script type='text/javascript' src='js/jquery.plugin.min.js'></script>
+		<script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+		<script type='text/javascript' src='js/jquery.parallax.js'></script>
+		<script type='text/javascript' src='js/owl.carousel.min.js'></script>
+
+		<script type="text/javascript">
+            var $height_w   = jQuery(window).height();
+	        jQuery('.noo-countdown').css('height',$height_w+'px');
+	        jQuery(window).resize(function(){
+                var $height_w = jQuery(window).height();
+                jQuery('.noo-countdown').css('height',$height_w+'px');
+	        });
+            jQuery(function () {
+                jQuery('.full-background li:first-child').show();
+                var myVar = '';
+                clearInterval(myVar);
+                myVar = setInterval(function(){
+                    jQuery('.full-background li:first-child').fadeOut(1200).next('li').fadeIn(1200).end().appendTo('.full-background');
+                },3500);
+	            
+	                                
+	            austDay = new Date(2016, 5 - 1,  31);
+	            jQuery('#defaultCountdown').countdown({until: austDay});
+	            jQuery('#year').text(austDay.getFullYear());
+            });
+
+        </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
