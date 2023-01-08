@@ -1,23 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react'
 // Components
-import Header from './components/header/Header'
-import Footer from './components/footer/Footer'
-import CountDown from './components/utility/countdown/CountDown'
 // Pages
-import Home from './pages/Home'
-import AlbumPage from './pages/AlbumPage'
-import AlbumsPage from './pages/AlbumsPage'
-import ArtistPage from './pages/ArtistPage'
-import BlogsPage from './pages/BlogsPage'
-import BlogPage from './pages/BlogPage'
-import CartPage from './pages/CartPage'
-import ContactPage from './pages/ContactPage'
-import EventPage from './pages/EventPage'
-import EventsPage from './pages/EventsPage'
-import MembersPage from './pages/MembersPage'
-import ProductPage from './pages/ProductPage'
-import ProductsPage from './pages/ProductsPage'
-import GalleryPage from './pages/GalleryPage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles
@@ -64,7 +47,7 @@ function App() {
     <Fragment>
       <Header />
       <div className='site-content'>
-        <Routes>
+        {/* <Routes>
           <Route path='/' element={<Home />} />
         </Routes>
         <Routes>
@@ -105,10 +88,8 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/gallery' element={<GalleryPage />} />
-        </Routes>
+        </Routes> */}
       </div>
-      <Footer />
-      <CountDown />
     </Fragment>
   )
 }
