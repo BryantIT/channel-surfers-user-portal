@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useState } from 'react'
 // Components
+import Navbar from './components/navbar/Navbar'
 // Pages
 import HomePage from './pages/HomePage'
 // Router
@@ -48,6 +49,7 @@ function App() {
     <Fragment>
       {/* <Header /> */}
       <div className='site-content'>
+      <Navbar />
         <Routes>
           <Route path='/' element={<HomePage />} />
         </Routes>

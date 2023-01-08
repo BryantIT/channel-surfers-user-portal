@@ -1,0 +1,149 @@
+@media (min-width: 992px) {
+  .site-content .noo-header {
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-fixed-top .navbar .navbar-nav > li > a {
+    color: #000000 !important;
+    -webkit-transition: all 0.6s linear 0s;
+    -o-transition: all 0.6s linear 0s;
+    transition: all 0.6s linear 0s;
+  }
+  .navbar-fixed-top .navbar:not(.navbar-fixed-top) .member-search form {
+    color: #000 !important;
+  }
+  .navbar .navbar-brand {
+    height: 100%;
+  }
+  .navbar .navbar-nav > li > a {
+    line-height: 100px;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) {
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: none;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) .navbar-nav > li > a {
+    color: #ffffff;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) .navbar-nav > li > a:hover {
+    color: #ffffff;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) .member-search form {
+    color: #fff;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) .navbar-right {
+    border-left: 2px solid rgba(45, 50, 53, 0.2);
+  }
+  .site-content .navbar:not(.navbar-fixed-top) .navbar-right .member-links a {
+    color: #ffffff;
+  }
+  .site-content
+    .navbar:not(.navbar-fixed-top)
+    .navbar-right
+    .member-links
+    a:hover {
+    color: #d91f26;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) .navbar-brand .noo-logo-normal {
+    display: none;
+  }
+  .site-content
+    .navbar:not(.navbar-fixed-top)
+    .navbar-brand
+    .noo-logo-floating {
+    display: block;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) {
+    background-color: rgba(0, 0, 0, 0.035);
+    border-color: transparent;
+    color: #ffffff;
+  }
+  .site-content .navbar:not(.navbar-fixed-top) .navbar-nav > li > a {
+    color: #ffffff;
+    background: #fff;
+  }
+}
+.noo-header {
+  position: relative;
+  z-index: 9999;
+}
+#noo-header {
+  position: relative;
+  z-index: 9999;
+}
+@media (max-width: 767px) {
+  .noo-header .navbar {
+    min-height: 50px;
+  }
+  .noo-header .navbar .navbar-header {
+    height: 70px;
+  }
+  .navbar-header .navbar-brand {
+    padding-right: 0;
+  }
+  .navbar-header .navbar-brand {
+    padding: 0;
+  }
+  .navbar-header .navbar-brand img.noo-logo-img {
+    width: 110px;
+  }
+}
+.navbar-wrapper .navbar-inner {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+@media (max-width: 1199px) {
+  .navbar-wrapper .navbar-inner {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-wrapper .navbar-inner {
+    padding: 0 15px;
+  }
+  .navbar-header {
+    float: none;
+    text-align: center;
+  }
+  .navbar-header .navbar-brand {
+    float: none;
+    height: auto;
+    height: 100%;
+  }
+}
+/* .navbar {
+  display: none;
+} */
+.navbar {
+  height: 100px;
+  z-index: 1000;
+  background-color: #151515;
+  text-align: center;
+  margin-bottom: 0;
+}
+.navbar-fixed-top.navbar .navbar-fixed-top.navbar {
+  top: 0 !important;
+  min-height: none !important;
+}
+.navbar {
+  height: auto;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+.navbar-header {
+  float: left;
+  position: relative;
+  height: 100px;
+  max-height: 100%;
+}
