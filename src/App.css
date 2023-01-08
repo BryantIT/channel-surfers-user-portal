@@ -27,3 +27,12 @@
 .App-link {
   color: #61dafb;
 }
+
+@import url('./assets/css/animate.min.css');
+@import url('./vendor/js/plugin/ImageGrid/css/style.css');
+@import url('./vendor/js/plugin/owl-carousel/owl.carousel.min.css');
+@import url('./vendor/js/plugin/owl-carousel/owl.theme.default.min.css');
+@import url('./vendor/js/plugin/bxslider/jquery.bxslider.css');
+@import url('./vendor/js/plugin/fancybox/jquery.fancybox.css');
+@import url('./vendor/js/plugin/datetime/jquery.datetimepicker.css');
+@import url('./vendor/js/plugin/video/mediaelementplayer.css');
