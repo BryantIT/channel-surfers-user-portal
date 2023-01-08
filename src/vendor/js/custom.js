@@ -6,6 +6,8 @@ Copyright (c) 2021 RockOn HTML Template
 Project:	RockOn HTML Template
 
 -------------------------------------------------------------------*/
+import $ from 'jquery'
+console.log('HELLO')
 
 (function($) {
     "use strict";

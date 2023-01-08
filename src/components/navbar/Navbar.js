@@ -4,81 +4,112 @@ import './style.css'
 const Navbar = () => {
   return (
     <Fragment>
-      <header className="noo-header" id="noo-header">
-				<div className="navbar-wrapper">
-					<div className="navbar navbar-default navbar-static-top">
-						<div className="container">
-							<div className="navbar-header">
-								<h1 className="sr-only">Home</h1>
-								<a className="navbar-toggle collapsed" data-toggle="collapse" data-target=".noo-navbar-collapse">
-									<span className="sr-only">Navigation</span>
-									<i className="fa fa-bars"></i>
-								</a>
-								<a href="#" className="mobile-minicart-icon">
-									<i className="fa fa-shopping-cart"></i><span>0</span>
-								</a>
-								<a href="./" className="navbar-brand">
-									<img className="noo-logo-img noo-logo-normal" src="images/logo.png" alt="" />
-									<img className="noo-logo-img noo-logo-floating" src="images/logo.png" alt="" />
-								</a>
-							</div>  
-							<nav className="collapse navbar-collapse noo-navbar-collapse">
-								<ul className="navbar-nav sf-menu">
-									<li className="current-menu-item menu-item-has-children">
-										<a href="./">Home</a>
-										<ul className="sub-menu">
-											<li><a href="index-video.html">Home video</a></li>
-											<li><a href="index-parallax.html">Home Parallax</a></li>
-											<li><a href="index-revolution.html">Home Revolution</a></li>
-										</ul>
-									</li>
-									<li className="menu-item-has-children">
-										<a href="#">Events</a>
-										<ul className="sub-menu">
-											<li><a href="event.html">Event List</a></li>
-											<li><a href="event-photo.html">Event Photo</a></li>
-											<li><a href="event-detail.html">Event Detail</a></li>
-											<li><a href="archive-event.html">Archive Event</a></li>
-										</ul>
-									</li>
-									<li className="menu-item-has-children">
-										<a href="#">Albums</a>
-										<ul className="sub-menu">
-											<li><a href="album.html">Albums Masonry</a></li>
-											<li><a href="album-detail.html">Single Album</a></li>
-										</ul>
-									</li>
-									<li className="menu-item-has-children">
-										<a href="shop.html">Shop</a>
-										<ul className="sub-menu">
-											<li><a href="my-account.html">My Account</a></li>
-											<li><a href="cart.html">Cart</a></li>
-											<li><a href="cart-empty.html">Empty Cart</a></li>
-											<li><a href="shop-detail.html">Shop Detail</a></li>
-										</ul>
-									</li>
-									<li><a href="members.html">Members</a></li>
-									<li className="menu-item-has-children">
-										<a href="blog.html">Blog</a>
-										<ul className="sub-menu">
-											<li><a href="blog-masonry.html">Blog 2 columns</a></li>
-											<li><a href="blog-detail.html">Single Post</a></li>
-										</ul>
-									</li>
-									<li><a href="contact.html">Contact</a></li>
-									<li className="noo-menu-item-cart minicart">
-										<a className="cart-button" href="cart.html">
-											<span className="cart-item">
-												<i className="fa fa-shopping-cart"></i>
-											</span>
-										</a>
-									</li>
-								</ul>
-							</nav>  
-						</div>  
-					</div>  
-				</div>
-			</header>
+      <header id='rock_header_single_page'>
+        <div className='container'>
+          <div className='col-lg-12 col-md-12 col-sm-12'>
+            <div className='row'>
+              <div className='col-lg-3 col-md-3 col-sm-6 col-6'>
+                <div className='rock_logo'>
+                  <a data-link='rockon_home'>
+                    <img src='../assets/images/Logo1.png' alt='logo' />
+                  </a>
+                </div>
+              </div>
+              <div className='col-lg-9 col-md-9 col-sm-6 col-6'>
+                <div className='main-menu-container rock_menu rock_menu_single'>
+                  <div className='main-menu'>
+                    <ul>
+                      <li>
+                        <a href='index.html'>Home</a>
+                      </li>
+                      <li>
+                        <a href='javascript:void(0);'>Blog</a>
+                        <ul className='sub-menu'>
+                          <li>
+                            <a href='blog_category.html'>Blog Category</a>
+                          </li>
+                          <li>
+                            <a href='blog_full_width.html'>Blog Full Width</a>
+                          </li>
+                          <li>
+                            <a href='single_page.html'>Blog Single Page</a>
+                          </li>
+                          <li>
+                            <a href='blog_left_sidebar.html'>
+                              Blog Left sidebar
+                            </a>
+                          </li>
+                          <li>
+                            <a href='blog_right_sidebar.html'>
+                              Blog right sidebar
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href='javascript:void(0);'>Pages</a>
+                        <ul className='sub-menu'>
+                          <li>
+                            <a href='event.html'>Events</a>
+                          </li>
+                          <li>
+                            <a href='services.html'>Services</a>
+                          </li>
+                          <li>
+                            <a href='elements.html'>Elements</a>
+                          </li>
+                          <li>
+                            <a href='prices.html'>Price Table</a>
+                          </li>
+                          <li>
+                            <a href='columns.html'>Columns</a>
+                          </li>
+                          <li>
+                            <a href='404.html'>404 Page</a>
+                          </li>
+                          <li>
+                            <a href='icon.html'>Icon</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href='javascript:void(0);'>Gallery</a>
+                        <ul className='sub-menu'>
+                          <li>
+                            <a href='gallery_2column.html'>Gallery 2 Column</a>
+                          </li>
+                          <li>
+                            <a href='gallery_3column.html'>Gallery 3 Column</a>
+                          </li>
+                          <li>
+                            <a href='gallery_4column.html'>Gallery 4 Column</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href='booking.html'>Book table</a>
+                      </li>
+                      <li>
+                        <a href='about.html'>About Us</a>
+                      </li>
+                      <li>
+                        <a href='contact.html'>Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className='menu-btn-wrap'>
+                    <a href='javascript:void(0);' className='menu-btn'>
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
     </Fragment>
   )
 }

@@ -1,6 +1,8 @@
 import React, { Fragment, useEffect, useState } from 'react'
+import { Helmet } from 'react-helmet'
 // Components
 import Navbar from './components/navbar/Navbar'
+import Slider from './components/slider/Slider'
 // Pages
 import HomePage from './pages/HomePage'
 // Router
@@ -48,6 +50,7 @@ function App() {
   return (
     <Fragment>
       {/* <Header /> */}
+      <Slider />
       <div className='site-content'>
       <Navbar />
         <Routes>

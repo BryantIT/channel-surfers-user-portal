@@ -8,14 +8,12 @@ const HomePage = () => {
   useEffect(() => {
     setIsLoaded(true)
   }, [])
-  
+
   return (
-    <Fragment>
-    {
-      isLoaded ? <h1>Hello Home Page</h1> : <Preloader />
-    }
-      
-    </Fragment>
+      isLoaded ? 
+      <Fragment>
+        <div>Hello Home Page</div>
+      </Fragment> : <Preloader />
   )
 }
 

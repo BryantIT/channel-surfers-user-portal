@@ -28,11 +28,26 @@
   color: #61dafb;
 }
 
-@import url('./assets/css/animate.min.css');
-@import url('./vendor/js/plugin/ImageGrid/css/style.css');
-@import url('./vendor/js/plugin/owl-carousel/owl.carousel.min.css');
-@import url('./vendor/js/plugin/owl-carousel/owl.theme.default.min.css');
-@import url('./vendor/js/plugin/bxslider/jquery.bxslider.css');
-@import url('./vendor/js/plugin/fancybox/jquery.fancybox.css');
-@import url('./vendor/js/plugin/datetime/jquery.datetimepicker.css');
-@import url('./vendor/js/plugin/video/mediaelementplayer.css');
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+    padding: 0;
+  }
+}
+@media(max-width:991px) {
+  .col-lg-12.order-05 {
+    order: 5;
+}
+.col-lg-7.col-md-12.col-sm-12.blogcategory_big_part.order-03 {
+  order: 3;
+}
+.col-lg-4.col-md-12.col-sm-12.full_page_blog_detail.order-04 {
+  order: 4;
+}
+.col-lg-7.col-md-12.col-sm-12.blogcategory_big_part.order-01 {
+  order: 1;
+}
+.col-lg-4.col-md-12.col-sm-12.full_page_blog_detail.order-02 {
+  order: 2;
+}
+}
