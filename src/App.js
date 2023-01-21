@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 import Navbar from './components/navbar/Navbar'
 import Slider from './components/slider/Slider'
 // Pages
-import HomePage from './pages/HomePage'
+import HomePage from './pages/homePage/HomePage'
 // Router
 import { Routes, Route } from 'react-router-dom'
 // Styles

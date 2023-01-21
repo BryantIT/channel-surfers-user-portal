@@ -1,0 +1,54 @@
+.rock_welcome_note {
+  width: 100%;
+  float: left;
+  text-align: center;
+  background: #000;
+  position: relative;
+  min-height: 530px;
+}
+
+.rock_welcome_note > div > div > div > p {
+  line-height: 25px;
+  margin-bottom: 30px;
+}
+
+.rock_welcome_note .rock_heading_div .rock_heading h1 {
+  margin-top: 30px;
+}
+
+.rock_welcome_note.rock-welcome-main-wrapper {
+  padding: 20px 0px 0px;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .rock_welcome_note {
+    min-height: 490px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .rock_welcome_note {
+    min-height: 500px;
+  }
+}
+
+@media (max-width: 479px) {
+  .rock_welcome_note.rock-welcome-main-wrapper {
+    padding: 0;
+  }
+  .rock_welcome_note {
+    min-height: 650px;
+  }
+}
+
+@media (max-width: 380px) {
+  .rock_welcome_note {
+    min-height: 750px;
+  }
+}
+
+@media (max-width: 220px) {
+  .rock_welcome_note {
+    min-height: 850px;
+  }
+}
