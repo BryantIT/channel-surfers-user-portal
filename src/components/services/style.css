@@ -1,0 +1,197 @@
+.rock_heading_div {
+  width: 100%;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+
+.rock_heading_div.rock_club_photo_heading {
+  padding-top: 30px;
+}
+
+@media (max-width: 479px) {
+  .rock_heading_div.rock_club_photo_heading {
+    padding-top: 0;
+  }
+}
+
+@media (max-width: 1560px) {
+  #rock_header {
+    top: 70%;
+  }
+  .rock_page_title .rock_heading h1 {
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .rock_page_title .rock_heading h1:after {
+    top: 51px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .rock_page_title .rock_heading h1 {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  .rock_page_title .rock_heading h1:after {
+    top: 45px;
+  }
+  .rock_page_title .rock_heading p {
+    bottom: -12px;
+    font-size: 25px;
+  }
+  .rock_heading p {
+    display: none;
+  }
+  .rock_heading h1:after {
+    display: none;
+  }
+}
+
+.rock_heading p {
+  position: absolute;
+  left: 48%;
+  color: #f01f1f;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+.rock_service_div {
+  position: absolute !important;
+  top: 67% !important;
+  width: 100%;
+  float: left;
+}
+
+.rock_service {
+  background: #fcf5e2;
+  color: #000000;
+  padding-top: 40px;
+  position: relative;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  -webkit-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-bottom: 30px;
+}
+.rock_service:after {
+  content: '';
+  position: absolute;
+  top: 30px;
+  right: 0;
+  border-right: 1px solid #212121;
+  width: 1px;
+  height: 65%;
+}
+
+.rock_service:last-child:after {
+  border-right: none;
+}
+
+.rock_service > .rock_service_icon {
+  padding: 5px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 20px;
+}
+
+.rock_service > h2 {
+  font-weight: 400;
+}
+
+.rock_service > p {
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.rock_service > .rock_service_read_more {
+  background: #fcf5e2;
+  padding: 20px 0px;
+  text-align: center;
+  margin-left: -11px;
+  margin-right: -11px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+.rock_service > .rock_service_read_more > a {
+  color: inherit;
+  position: relative;
+  font-size: 18px;
+}
+
+.rock_service:hover {
+  background: #8bdada;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-transform: translate(0px, -15px);
+  -moz-transform: translate(0px, -15px);
+  -o-transform: translate(0px, -15px);
+  -ms-transform: translate(0px, -15px);
+  transform: translate(0px, -15px);
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 100;
+}
+
+.rock_service:hover > .rock_service_icon {
+  border-color: #000000;
+}
+
+.rock_service:hover > .rock_service_read_more {
+  border-bottom: 2px solid #000000;
+  background: #4cc2c0;
+}
+
+.rock_service:hover > .rock_service_read_more > a {
+  color: #000000;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .rock_service {
+    margin-bottom: 20px;
+  }
+  .rock_service:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 479px) {
+  .rock_service {
+    margin-bottom: 20px;
+  }
+  .rock_service:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 380px) {
+  .rock_service {
+    margin-bottom: 20px;
+  }
+  .rock_service:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
