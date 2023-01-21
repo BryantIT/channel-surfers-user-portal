@@ -1,0 +1,19 @@
+.rock_welcome {
+  text-transform: uppercase;
+  margin-top: 45px;
+  font-size: 30px;
+  letter-spacing: 0.075em;
+  margin-bottom: 20px;
+}
+
+.rock_welcome>strong>span.label-default {
+  font-weight: 200;
+}
+
+.rock_divider {
+  background-color: #525252;
+  height: 1px;
+  width: 100%;
+  padding: 0;
+  margin: 10px auto;
+}
