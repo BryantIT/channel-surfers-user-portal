@@ -4,6 +4,7 @@ import './style.css'
 import Preloader from '../../components/utility/preloader/Preloader'
 import Welcome from '../../components/welcome/Welcome'
 import Services from '../../components/services/Services'
+import Events from '../../components/events/Events'
 
 const HomePage = () => {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -17,6 +18,9 @@ const HomePage = () => {
       <div className='rock_welcome_note rock-welcome-main-wrapper'>
         <Welcome />
         <Services />
+      </div>
+      <div className='rock_welcome_note rock-welcome-main-wrapper'>
+        <Events />
       </div>
     </Fragment>
   ) : (

@@ -1,0 +1,316 @@
+.rock_margin_30 {
+  margin: 30px auto;
+}
+
+.rock_event {
+  width: 100%;
+  float: left;
+}
+
+.rock_event .rock_event_tab {
+  float: left;
+  width: 12%;
+  border-right: 2px solid #080808;
+}
+
+.rock_event .rock_event_tab ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px auto;
+}
+
+.rock_event .rock_event_tab ul li {
+  background: #fcf5e2;
+  padding: 8.6px 0px;
+  border-bottom: 1px solid #232323;
+  border-left: 2px solid rgba(0, 0, 0, 0);
+}
+
+.rock_event .rock_event_tab ul li:hover {
+  border-left: 2px solid #00ffcc;
+}
+
+.rock_event .rock_event_tab ul li:last-child {
+  border-bottom: none;
+}
+
+.rock_event .rock_event_tab ul li a {
+  color: inherit;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.rock_event .rock_event_tab ul li:hover a {
+  color: #00ffcc;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.rock_event .rock_event_tab ul li a p {
+  margin: 0px;
+  color: #080808;
+}
+
+.rock_event .rock_event_tab ul li:hover a p {
+  color: inherit;
+}
+
+.rock_event .rock_event_tab ul li a.active p {
+  color: #080808;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.rock_event .rock_event_tab ul li a p.rock_event_date {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.rock_event .rock_event_tab ul li a p.rock_event_month {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.rock_event .rock_event_tab ul li {
+  position: relative;
+}
+
+.rock_event .rock_event_tab ul li a:hover:before {
+  border-left: 10px solid #00ffcc;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  top: 50%;
+  margin-top: -10px;
+  left: 100%;
+  z-index: 100;
+  content: '';
+  position: absolute;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.rock_event .rock_event_tab ul li a.active:before {
+  border-left: 10px solid #00ffcc;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  top: 50%;
+  margin-top: -10px;
+  left: 100%;
+  content: '';
+  position: absolute;
+  z-index: 100;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.rock_event .rock_event_tab_content_main {
+  width: 88%;
+  float: left;
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content {
+  background: #fcf5e2;
+  width: 100%;
+  float: left;
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content img {
+  width: 100%;
+}
+
+.rock_event
+  .rock_event_tab_content_main
+  .rock_event_tab_content
+  .rock_event_detail {
+  padding: 10px 25px 10px 0px;
+  text-align: left;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -ms-animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.rock_event
+  .rock_event_tab_content_main
+  .rock_event_tab_content
+  .rock_event_detail
+  h1 {
+  color: #080808;
+  font-size: 38px;
+  text-transform: uppercase;
+}
+
+.rock_event
+  .rock_event_tab_content_main
+  .rock_event_tab_content
+  .rock_event_detail
+  h4 {
+  text-transform: uppercase;
+  color: #080808;
+}
+
+.rock_event_date .event_date {
+  background: #0d0d0d;
+  text-align: center;
+  padding: 5px 0px;
+  width: 131px;
+  height: auto;
+  margin: 20px 0px;
+}
+
+.rock_event_date .event_date h1 {
+  color: #080808;
+  font-size: 40px;
+}
+
+.rock_event_date .event_date p {
+  color: #080808;
+  text-transform: uppercase;
+}
+
+@media (min-width: 980px) and (max-width: 1200px) {
+  .rock_event
+    .rock_event_tab_content_main
+    .rock_event_tab_content
+    .rock_event_detail {
+    padding: 10px 25px 10px 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .rock_event
+    .rock_event_tab_content_main
+    .rock_event_tab_content
+    .rock_event_detail {
+    padding: 10px 25px 10px 20px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  .rock_event
+    .rock_event_tab_content_main
+    .rock_event_tab_content
+    .rock_event_detail {
+    padding: 10px 25px 10px 20px;
+  }
+}
+
+@media (max-width: 479px) {
+  .rock_event .rock_event_tab {
+    width: 15%;
+  }
+  .rock_event .rock_event_tab_content_main {
+    width: 85%;
+  }
+  .rock_event
+    .rock_event_tab_content_main
+    .rock_event_tab_content
+    .rock_event_detail {
+    padding: 10px 25px 10px 20px;
+  }
+  .rock_event_date .event_date {
+    padding: 5px 40px;
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    text-align: left;
+  }
+}
+
+@media (max-width: 380px) {
+  .rock_event
+    .rock_event_tab_content_main
+    .rock_event_tab_content
+    .rock_event_detail {
+    padding: 10px 25px 10px 20px;
+  }
+}
+
+.rock_event .rock_event_tab_content_main {
+  position: relative;
+}
+
+.rock_social {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.rock_social ul {
+  line-height: none;
+  padding: 0;
+  margin: 0px auto;
+}
+
+.rock_social ul li {
+  display: inline-block;
+  margin-right: 5px;
+  border-radius: 50%;
+  padding: 3px;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+.rock_social ul li:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.rock_social ul li a {
+  background: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: #080808;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.rock_social ul li a:hover {
+  background: #00ffcc;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
